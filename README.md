@@ -15,9 +15,9 @@ Source code for [Joint Entity and Relation Extraction with Set Prediction Networ
 ##  Model Training
 ### Requirement:
 ```
-Python: 3.7   
-PyTorch: >= 1.5.0 
-Transformers: 2.6.0
+Python: 3.10.8
+Transformers: 4.24.0
+Torch: 1.13.1
 ```
 
 ###  NYT Partial Match

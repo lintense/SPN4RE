@@ -1,7 +1,8 @@
 import torch.nn as nn
 import torch
-from transformers.modeling_bert import BertIntermediate, BertOutput, BertAttention, BertLayerNorm, BertSelfAttention
+from transformers.modeling_bert import BertIntermediate, BertOutput, BertAttention, BertSelfAttention
 
+BertLayerNorm = torch.nn.LayerNorm
 
 class SetDecoder(nn.Module):
     def __init__(self, config, num_generated_triples, num_layers, num_classes, return_intermediate=False):
