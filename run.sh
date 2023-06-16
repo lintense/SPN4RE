@@ -1,0 +1,2 @@
+# Bash script to run on WSL Ubuntu using GPU
+python3 -m main --bert_directory ./data/bert_base_cased --batch_size 4 --num_generated_triples 10 --na_rel_coef 0.25 --max_grad_norm 20  --max_epoch 2 --encoder_lr 0.00002 --decoder_lr 0.00005 --num_decoder_layers 4 --max_span_length 10 --weight_decay 0.000001 --lr_decay 0.02

@@ -1,4 +1,5 @@
 import torch, random, gc
+torch.cuda.current_device()
 from torch import nn, optim
 from tqdm import tqdm
 from transformers import AdamW
